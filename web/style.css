@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.head {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.leftside {
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.rightside {
+    height: 15vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.lower-half {
+    padding: 2rem;
+
+}
